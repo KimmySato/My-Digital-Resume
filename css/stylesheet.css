@@ -1,15 +1,20 @@
 html{
-    border:solid orangered 3mm;
+    border:solid rgb(164, 182, 8) 3mm;
     margin:0%;
 }
 body{
   font-family: sans-serif;
   font-size:110%;
   background-color: #FCF7F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header{
   text-align: center;
+  justify-content: center;
+  
 }
 #heading{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,10 +27,11 @@ footer {
   background-color: #343330;
   text-align: center;
   color: #FCF7F8;
+  padding:1rem
 }
 #sidebar{
-    width:15%;
-    background-color:darkolivegreen;
+    width:20%;
+    background-color:rgb(164, 182, 8);
     color: #FCF7F8;
     padding:1rem;
     
@@ -38,12 +44,19 @@ padding:0%;
     width: 200px;
     height:200px;
     border-radius: 50%;
-    color:rgb(194, 58, 24);
-    border: 1mm solid rgb(194, 58, 24)
+    color:rgb(164, 182, 8);
+    border: 1mm solid rgb(164, 182, 8)
     ;
 }
 .icons{
     width:4rem;
     margin:2rem;
     height:auto
+}
+
+.main{
+    display:flex;
+    flex-direction:row;
+    overflow:unset;
+
 }
